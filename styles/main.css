@@ -17,3 +17,30 @@ div{
   padding: 2em;
   text-align: center;
 }
+
+h2{
+  font-size: 1.75em;
+}
+
+#number{
+  font-size: 4em;
+  font-weight: bold;
+}
+
+button{
+  display: inline-block;
+  padding: 0.5em;
+  font-family: inherit;
+  font-size: 1em;
+  margin: 0 1em;
+  border: none;
+  background-color: lavenderblush;
+  border-radius: 10px;
+  border: 1px solid ivory;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: lightpink;
+  transition: background-color 0.5s ease-in-out;
+}
